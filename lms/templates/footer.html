@@ -19,11 +19,21 @@
     <div class="colophon">
       <nav class="nav-colophon" aria-label="${_('About')}">
         <ol>
-            % for item_num, link in enumerate(footer['navigation_links'], start=1):
-            <li class="nav-colophon-0${item_num}">
-              <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
-            </li>
-            % endfor
+	% for item_num, link in enumerate(footer['navigation_links'], start=1):
+             ## JIRA: SPAR-317 and JIRA: SPAR-322
+             % if link['name'] != "blog" and link['name'] != "faq":
+              ## JIRA: SPAR-318
+               % if link['name'] == "donate":
+               <li class="nav-colophon-0${item_num}">
+                 <a id="${link['name']}" href="https://www.energyfolks.com/donate" target="_blank">${link['title']}</a>
+               </li>
+               % else:
+               <li class="nav-colophon-0${item_num}">
+                 <a id="${link['name']}" href="${link['url']}">${link['title']}</a>
+               </li>
+               % endif
+             % endif
+        % endfor
         </ol>
       </nav>
 
@@ -48,9 +58,12 @@
       <nav class="nav-legal" aria-label="${_('Legal')}">
         <ul>
           % for item_num, link in enumerate(footer['legal_links'], start=1):
-            <li class="nav-legal-0${item_num}">
+            ## JIRA: SPAR-320
+	    % if link['name'] != "honor_code":
+	    <li class="nav-legal-0${item_num}">
               <a href="${link['url']}">${link['title']}</a>
             </li>
+	    % endif
           % endfor
         </ul>
       </nav>

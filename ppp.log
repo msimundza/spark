@@ -1,0 +1,252 @@
+-e git+https://github.com/edx/acid-block.git@e46f9cda8a03e121a00c7e347084d142d22ebfb7#egg=acid_xblock-dev
+amqp==1.4.9
+analytics-python==0.4.4
+anyjson==0.3.3
+argh==0.26.1
+astroid==1.4.3
+Babel==1.3
+BeautifulSoup==3.2.1
+beautifulsoup4==4.1.3
+before-after==0.1.3
+billiard==3.3.0.22
+bleach==1.4
+bok-choy==0.4.2
+boto==2.32.1
+browsermob-proxy==0.6.0
+calc==0.2
+capa==0.1
+-e git+https://github.com/jazkarta/ccx-keys.git@e6b03704b1bb97c1d2f31301ecb4e3a687c536ea#egg=ccx_keys-master
+celery==3.1.18
+charade==1.0.3
+chem==0.1.1
+chrono==1.0.2
+-e git+https://github.com/edx/codejail.git@6b17c33a89bef0ac510926b1d7fea2748b73aadd#egg=codejail-master
+colorama==0.3.6
+coverage==3.7
+cssselect==0.9.1
+cssutils==1.0.1
+Cython==0.21.2
+ddt==0.8.0
+dealer==2.0.4
+decorator==4.0.6
+defusedxml==0.4.1
+dicttoxml==1.6.6
+diff-cover==0.7.3
+Django==1.4.21
+django-appconf==1.0.1
+django-babel==0.4.0
+django-babel-underscore==0.1.0
+django-cas==2.1.1
+django-celery==3.1.16
+django-classy-tags==0.7.0
+django-cors-headers==0.13
+django-countries==3.3
+django-crum==0.5
+django-debug-toolbar==1.2.2
+django-debug-toolbar-mongo==0.1.10
+django-extensions==1.2.5
+django-filter==0.6
+django-followit==0.0.3
+-e git+https://github.com/un33k/django-ipware.git@42cb1bb1dc680a60c6452e8bb2b843c2a0382c90#egg=django_ipware-dev
+django-keyedcache==1.4.post6
+django-kombu==0.9.4
+django-mako==0.1.5rc0
+django-masquerade==0.1.6
+django-method-override==0.1.0
+django-model-utils==1.4.0
+django-mptt==0.5.5
+django-nose==1.3
+django-oauth-plus==2.2.8
+-e git+https://github.com/edx/django-oauth2-provider.git@3d9fde84c6af7c452428bc1cb68b52979d46f3d6#egg=django_oauth2_provider-0.2.7-fork-edx-5
+django-openid-auth==0.4
+-e git+https://github.com/edx/django-pipeline.git@88ec8a011e481918fdc9d2682d4017c835acd8be#egg=django_pipeline-dev
+-e git+https://github.com/pmitros/django-pyfs.git@d175715e0fe3367ec0f1ee429c242d603f6e8b10#egg=django_pyfs-dev
+django-ratelimit-backend==0.6
+django-require==1.0.6
+django-robots==0.9.1
+django-sekizai==0.6.1
+django-ses==0.4.1
+django-settings-context-processor==0.2
+django-simple-history==1.6.1
+-e git+https://github.com/edx-solutions/django-splash.git@7579d052afcf474ece1239153cffe1c89935bc4f#egg=django_splash-master
+-e git+https://github.com/edx/django-staticfiles.git@d89aae2a82f2b4d7db6ca10baa1c43c81ebfc70a#egg=django_staticfiles-dev
+django-storages==1.1.5
+django-storages-redux==1.3
+django-threaded-multihost==1.4.post1
+-e git+https://github.com/edx/django-wiki.git@cd0b2b31997afccde519fe5b3365e61a9edb143f#egg=django_wiki-dev
+djangorestframework==2.3.14
+-e git+https://github.com/edx/django-rest-framework-oauth.git@f0b503fda8c254a38f97fef802ded4f5fe367f7a#egg=djangorestframework_oauth-master
+dm.xmlsec.binding==1.3.2
+docopt==0.6.2
+docutils==0.12
+dogapi==1.2.1
+dogstats-wrapper==0.1
+-e git+https://github.com/pmitros/DoneXBlock.git@857bf365f19c904d7e48364428f6b93ff153fabd#egg=done_xblock-origin_pmitros_analytics-review
+ease==0.1.3
+ecommerce-api-client==1.0.0
+-e git+https://github.com/jazkarta/edx-jsme.git@c5bfa5d361d6685d8c643838fc0055c25f8b7999#egg=edx_jsme-1.0.1
+edx-lint==0.2.3
+-e git+https://github.com/edx/edx-milestones.git@5299fdfef9bce11626b37414ac44cc39154accc0#egg=edx_milestones-release-2015-06-17
+-e git+https://github.com/edx/edx-oauth2-provider.git@d101d59e0487a43f02c1c5a3ab59806455db5e56#egg=edx_oauth2_provider-0.5.1
+edx-organizations==0.2.0
+edx-proctoring==0.12.4
+edx-rest-api-client==1.2.1
+-e git+https://github.com/edx/edx-reverification-block.git@a286e89c73e1b788e35ac5b08a54b71a9fa63cfd#egg=edx_reverification_block-dev
+-e git+https://github.com/edx/edx-search.git@f23fca90546b5cc51447e4a3bbe0d97a452340b0#egg=edx_search-release-2015-07-03
+-e git+https://github.com/mitodl/edx-sga@172a90fd2738f8142c10478356b2d9ed3e55334a#egg=edx_sga-origin_release
+-e git+https://github.com/edx/edx-submissions.git@7c766502058e04bc9094e6cbe286e949794b80b3#egg=edx_submissions-dev
+-e git+https://github.com/edx/edx-user-state-client.git@64a8b603f42669bb7fdca03d364d4e8d3d6ad67d#egg=edx_user_state_client-origin_cpenningtonfirst-pass-tests
+-e git+https://github.com/edx/edx-val.git@c0c975f86a038a90550191aa4f990bac849a97ff#egg=edxval-v0.0.5
+elasticsearch==0.4.5
+enum34==1.0.4
+-e git+https://github.com/edx/event-tracking.git@3efbae60bc56b15674fc490d193766a99c45bbfc#egg=event_tracking-0.2.0
+extras==0.0.3
+facebook-sdk==0.4.0
+factory-boy==2.2.1
+feedparser==5.1.3
+firebase-token-generator==1.3.2
+fisher==0.1.4
+flaky==2.0.3
+Flask==0.10.1
+freezegun==0.1.11
+fs==0.4.0
+futures==3.0.3
+fuzzywuzzy==0.8.0
+gitdb==0.6.4
+GitPython==0.3.2rc1
+glob2==0.3
+gunicorn==0.17.4
+html5lib==0.999
+httplib2==0.9.2
+httpretty==0.8.3
+-e git+https://github.com/edx/i18n-tools.git@1b1a2893ea5e881e539bec426b769f0a0924255e#egg=i18n_tools-dev
+inflect==0.2.5
+ipaddr==2.1.11
+isodate==0.5.0
+itsdangerous==0.24
+Jinja2==2.8
+jinja2-pluralize==0.3.0
+-e git+https://github.com/edx/js-test-tool.git@a07bf1befafbb24da196beabab3b1f7eb88146e4#egg=js_test_tool-dev
+jsonfield==1.0.3
+kombu==3.0.33
+lazy==1.1
+lazy-object-proxy==1.2.1
+LEPL==5.1.3
+lettuce==0.2.20
+logilab-common==1.1.0
+loremipsum==1.0.5
+lti-consumer-xblock==1.0.1
+lxml==3.4.4
+M2Crypto==0.22.3
+mailsnake==1.6.2
+Mako==0.9.1
+mando==0.3.3
+Markdown==2.2.1
+markey==0.7
+MarkupSafe==0.23
+meliae===0.4.0.final.0
+mock==1.0.1
+mock-django==0.6.6
+-e git+https://github.com/edx/MongoDBProxy.git@25b99097615bda06bd7cdfe5669ed80dc2a7fed0#egg=MongoDBProxy-master
+mongoengine==0.7.10
+moto==0.3.1
+MySQL-python==1.2.5
+needle==0.3
+networkx==1.7
+newrelic==2.46.0.37
+nltk==2.0.5
+nose==1.3.3
+nose-exclude==0.4.1
+nose-ignore-docstring==0.2
+nose-xunitmp==0.3.2
+nosexcover==1.0.7
+numpy==1.6.2
+oauth2==1.9.0.post1
+oauthlib==0.7.2
+-e git+https://github.com/edx/opaque-keys.git@df0dd602869e498e512659bb4bd243309e30e19a#egg=opaque_keys-dev
+-e git+https://github.com/edx/edx-platform.git@bde4dc5fdb6b470db0de361bc87038faf4f5471c#egg=Open_edX-named-release_cypress
+-e git+https://github.com/edx/edx-ora2.git@448d9200f98ddb798f1a16bc6aa7b10c0568b550#egg=ora2-named-release_cypress
+paramiko==1.9.0
+-e git+https://github.com/dgrtwo/ParsePy.git@7949b9f754d1445eff8e8f20d0e967b9a6420639#egg=parse_rest-dev
+path.py==7.2
+pathtools==0.1.2
+Paver==1.2.1
+pdfminer==20140328
+pep8==1.5.7
+Pillow==2.7.0
+polib==1.0.3
+psutil==1.2.1
+PyContracts==1.7.1
+pycrypto==2.6.1
+-e git+https://github.com/appliedsec/pygeoip.git@95e69341cebf5a6a9fbf7c4f5439d458898bdc3b#egg=pygeoip-dev
+Pygments==2.0.1
+pygraphviz==1.1
+PyJWT==1.0.1
+pylint==1.4.2
+pylint-celery==0.3
+pylint-django==0.6.1
+pylint-plugin-utils==0.2.3
+pymongo==2.7.2
+pynliner==0.5.2
+pyparsing==2.0.1
+pyquery==1.2.9
+pysrt==0.4.7
+-e git+https://github.com/dementrock/pystache_custom.git@776973740bdaad83a3b029f96e415a7d1e8bec2f#egg=pystache_custom-master
+python-dateutil==2.1
+python-memcached==1.48
+python-mimeparse==0.1.4
+python-openid==2.2.5
+python-saml==2.1.3
+python-social-auth==0.2.11
+python-subunit==0.0.16
+python-termstyle==0.1.10
+pytz==2015.2
+pyuca==1.1
+PyYAML==3.10
+radon==1.2
+-e git+https://github.com/pmitros/RateXBlock.git@367e19c0f6eac8a5f002fd0f1559555f8e74bfff#egg=rate_xblock-origin_release-alpha
+-e git+https://github.com/pmitros/RecommenderXBlock.git@518234bc354edbfc2651b9e534ddb54f96080779#egg=recommender_xblock-master
+rednose==0.4.3
+reportlab==3.1.44
+requests==2.3.0
+requests-oauthlib==0.4.1
+rfc6266==0.0.4
+safe-lxml==1.0
+sandbox-packages==0.1.1
+scikit-learn==0.12.1
+scipy==0.14.0
+selenium==2.42.1
+Shapely==1.2.16
+shortuuid==0.3
+simplejson==3.8.1
+singledispatch==3.4.0.2
+six==1.10.0
+slumber==0.7.1
+smmap==0.9.0
+sorl-thumbnail==11.12
+sortedcontainers==0.9.2
+South==1.0.1
+Sphinx==1.1.3
+sphinx-rtd-theme==0.1.5
+splinter==0.5.4
+sqlparse==0.1.18
+stevedore==0.14.1
+sure==1.2.3
+symmath==0.1
+sympy==0.7.1
+testtools==0.9.34
+transifex-client==0.10
+unicodecsv==0.9.4
+urllib3==1.7.1
+voluptuous==0.8.5
+watchdog==0.7.1
+WebOb==1.5.1
+Werkzeug==0.11.3
+wrapt==1.10.5
+-e git+https://github.com/edx/XBlock.git@017b46b80e712b1318379912257cf1cc1b68eb0e#egg=XBlock-named-release_cypress
+-e git+https://github.com/edx-solutions/xblock-google-drive.git@138e6fa0bf3a2013e904a085b9fed77dab7f3f21#egg=xblock_google_drive-master
+-e git+https://github.com/open-craft/xblock-poll@7b892f3ba3bf437ea31c765761584db887a5aa32#egg=xblock_poll-dev
+xblock-utils==1.0.2
+xmltodict==0.4.1
+XModule==0.1
+-e git+https://github.com/eventbrite/zendesk.git@d53fe0e81b623f084e91776bcf6369f8b7b63879#egg=Zendesk-dev
