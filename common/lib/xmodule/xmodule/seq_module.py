@@ -120,7 +120,7 @@ class SequenceModule(SequenceFields, XModule):
             titles = child.get_content_titles()
             childinfo = {
                 'content': rendered_child.content,
-                'title': "\n".join(titles),
+                'title': titles[0] if titles else None,
                 'page_title': titles[0] if titles else '',
                 'progress_status': Progress.to_js_status_str(progress),
                 'progress_detail': Progress.to_js_detail_str(progress),
